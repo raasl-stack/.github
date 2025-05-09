@@ -28,7 +28,7 @@ git commit -m "Commit on branch 'devel'
  ```
  git push -u origin devel
  ```
-
+`-u` command will set the `devel` branch as default, from now on commands like `git push` and `git pull` will be executed on the `devel` branch.
 
 # 📁 Guide to Using Git Submodules in a ROS Workspace
 
