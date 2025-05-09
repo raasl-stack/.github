@@ -15,6 +15,7 @@ To create a new branch for a repository follow this steps:
 git checkout -b devel
 ```
 This command will create a new local branch and move to this branch
+
 3. Add your files to the new branch:
 ```
 git add .
