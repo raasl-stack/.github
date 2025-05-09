@@ -6,6 +6,29 @@ This organization is set to `public`, meaning anyone can find it by searching on
 
 To avoid issues, when creating a new repository, set it to `private` so that the code is only visible to the organization's members.
 
+# 📁 Guide to branches
+
+To create a new branch for a repository follow this steps:
+1. Clone the repo or navigate inside the repo main folder
+2. Move to the desired branch with:
+```
+git checkout -b devel
+```
+This command will create a new local branch and move to this branch
+3. Add your files to the new branch:
+```
+git add .
+```
+4. Commit on the branch:
+```
+git commit -m "Commit on branch 'devel'
+```
+5. Publish the new branch on github:
+ ```
+ git push -u origin devel
+ ```
+
+
 # 📁 Guide to Using Git Submodules in a ROS Workspace
 
 ## 🔹 What Are Git Submodules?
